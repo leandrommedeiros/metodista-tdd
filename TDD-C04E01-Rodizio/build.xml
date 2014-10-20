@@ -7,8 +7,8 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="TDD-C02-E02-Quadrado" default="default" basedir=".">
-    <description>Builds, tests, and runs the project TDD-C02-E02-Quadrado.</description>
+<project name="TDD-C04E01-Rodizio" default="default" basedir=".">
+    <description>Builds, tests, and runs the project TDD-C04E01-Rodizio.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
 
@@ -58,7 +58,7 @@
 
     An example of overriding the target for project execution could look like this:
 
-        <target name="run" depends="TDD-C02-E02-Quadrado-impl.jar">
+        <target name="run" depends="TDD-C04E01-Rodizio-impl.jar">
             <exec dir="bin" executable="launcher.exe">
                 <arg file="${dist.jar}"/>
             </exec>
