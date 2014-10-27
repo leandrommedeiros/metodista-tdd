@@ -6,5 +6,4 @@ package br.metodista.tdd;
  */
 public interface Rotation {
     public boolean canRun(String licencePlate);
-
 }
